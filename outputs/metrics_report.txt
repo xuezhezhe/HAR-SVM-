@@ -1,0 +1,17 @@
+Best model: RBF_SVM
+Test accuracy: 0.9542
+Test macro-F1: 0.9533
+
+Classification report:
+                    precision    recall  f1-score   support
+
+            LAYING       0.99      1.00      1.00       537
+           SITTING       0.96      0.89      0.93       491
+          STANDING       0.91      0.97      0.94       532
+           WALKING       0.95      0.97      0.96       496
+WALKING_DOWNSTAIRS       0.97      0.92      0.94       420
+  WALKING_UPSTAIRS       0.93      0.96      0.95       471
+
+          accuracy                           0.95      2947
+         macro avg       0.96      0.95      0.95      2947
+      weighted avg       0.95      0.95      0.95      2947
