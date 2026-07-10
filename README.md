@@ -1,3 +1,13 @@
+# HAR-SVM：基于智能手机传感器的人类活动识别
+
+本项目利用 UCI 公开数据集，基于智能手机内置加速度计与陀螺仪信号，识别走路、上楼、下楼、坐、站、躺六种日常活动。采用 561 维时频域特征，经标准化与交叉验证比较五种分类器，最终选用 RBF 核 SVM 模型。测试集准确率达 **95.42%**，宏平均 F1 为 **95.33%**。
+
+研究亮点：动态活动与“躺”识别近乎完美（F1≥0.94，躺姿达 1.00）；主要挑战在于坐与站两类静态活动因传感器信号相近而互相混淆。项目提供完整 Python 实现脚本，支持一键复现建模、可视化及结果导出。
+
+详见 [`REPORT.md`](REPORT.md) 与 [`项目介绍.md`](项目介绍.md)。
+
+---
+
 # [Human Activity Recognition with Smartphones](https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones)
 
 earth and nature | arts and entertainment
